@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   "homepage": "https://github.com/web-n/Nodejs#readme",
   "dependencies": {
     "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "reload": "^3.2.0",
     "sanitize-html": "^1.18.2"
   }
 }
